@@ -1,0 +1,6 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = ''
+theme = "charlolamode"
+[markup.goldmark.renderer]
+unsafe= true

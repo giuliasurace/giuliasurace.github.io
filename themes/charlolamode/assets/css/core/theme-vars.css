@@ -1,0 +1,38 @@
+:root {
+    --gap: 50px;
+    --content-gap: 50px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 100px;
+    --footer-height: 100px;
+    --radius: 13px;
+    --theme: #f1f1dc;
+    --entry: #f1f1dc;
+    --primary: rgb(30, 30, 30);
+    --secondary: rgb(108, 108, 108);
+    --tertiary: #0b08073a;
+    --content: rgb(31, 31, 31);
+    --hljs-bg: rgb(28, 29, 33);
+    --code-bg: #f1f1dc;
+    --border: rgb(238, 238, 238);
+}
+
+.dark {
+    --theme: rgb(11, 10, 8);
+    --entry: rgb(11, 10, 8);
+    --primary: rgb(218, 218, 219);
+    --secondary: rgb(155, 156, 157);
+    --tertiary: #e8e8c047;
+    --content: rgb(196, 196, 197);
+    --hljs-bg: rgb(46, 46, 51);
+    --code-bg: rgb(55, 56, 62);
+    --border: rgb(51, 51, 51);
+}
+
+.list {
+    background: var(--code-bg);
+}
+
+.dark.list {
+    background: var(--theme);
+}

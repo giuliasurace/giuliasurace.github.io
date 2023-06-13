@@ -1,0 +1,95 @@
+baseURL: # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: charlola.mode
+paginate: 5
+theme: charlolamode
+
+
+
+menu:
+    main:
+        - name: Contatti
+          url: /contatti/
+          weight: 30
+        - name: Progetti
+          url: /progetti/
+          weight: 10
+        - name: Donazioni
+          url: /donazioni/
+          weight: 15
+        - name: Altro
+          url: /altro/
+          weight: 20
+
+
+params:
+    author: Giulia Surace
+
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    profileMode:
+        # Disable to populate home page with 'mainSections' content
+        enabled: true
+        title: Giulia Surace
+        description: |
+
+          Ciao! Sono una studentessa dell'[Accademia di Belle Arti di Reggio Calabria](https://www.abarc.it/)
+          
+          e frequento il primo anno del corso di [Nuove tecnologie dell'arte](https://www.abarc.it/didattica/dipartimento-di-progettazione-e-arti-applicate/scuola-di-nuove-tecnologie-dellarte/).
+
+        imageUrl: "/images/foto profilo2.jpg"
+        imageTitle: my image
+        imageWidth: 300
+        imageHeight: 300
+        buttons:
+            - name: Non cliccarmi
+              url: https://youtu.be/dQw4w9WgXcQ
+    mainSections:
+      - Articles
+
+    socialIcons:
+        - name: linkedin
+          url: "https://www.linkedin.com/in/giulia-surace-a41740276"
+        - name: spotify
+          url: "https://esound.app/app/playlist/MjAzMTM4NzcsMCww"
+        - name: instagram
+          url: "https://www.instagram.com/suracegiulia_/"
+        - name: goodreads
+          url: "https://www.goodreads.com/user/show/143951110"
+        - name: letterboxd
+          url: "https://boxd.it/1vPG5"
+
+      # add more social icons. find more in svg.html file
+      # - name: youtube
+      #   url: yoururl
+      # - name: twitter
+      #   url: yoururl
+      # - name: facebook
+      #   url: yoururl
+
+
+    # change favicon in images folder (icon for web tab)
+    assets:
+          favicon: "/static/favicon.ico"
+          favicon16x16: "/images/favicon-16x16.png"
+          favicon32x32: "/images/favicon-32x32.png"
+          apple_touch_icon: "/images/apple-touch-icon.png"
+          safari_pinned_tab: "/images/apple-touch-icon.png"
+
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+
